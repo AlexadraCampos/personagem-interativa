@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
       <Botzinha />
-      <img src="image/susy-normal.gif image/susy_raiva.gif"/>
     </div>
   );
 }

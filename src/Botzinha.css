@@ -14,7 +14,7 @@
 /* O balão vai ficar fixo em cima da imagem */
 .fala-botzinha {
   position: absolute;
-  top: 90px; 
+  top: 390px; 
   left: 50%;
   transform: translateX(-50%);
   background-color: pink;
@@ -30,7 +30,7 @@
 /* A Susy */
 .imagem-botzinha {
   width: 900px;
-  height: 450px;
+  height: 900px;
   cursor: pointer;
   z-index: 1;
   mix-blend-mode: multiply;
