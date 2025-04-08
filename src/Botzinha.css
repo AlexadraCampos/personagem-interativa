@@ -1,0 +1,51 @@
+.botzinha-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: plum;
+}
+
+.susy-wrapper {
+  position: relative;
+  width: fit-content;
+}
+
+/* O balão vai ficar fixo em cima da imagem */
+.fala-botzinha {
+  position: absolute;
+  top: 90px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: pink;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  max-width: 300px;
+  font-size: 16px;
+  z-index: 10;
+}
+
+/* A Susy */
+.imagem-botzinha {
+  width: 900px;
+  height: 450px;
+  cursor: pointer;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+/* Responsivo para mobile */
+@media (max-width: 480px) {
+  .fala-botzinha {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    max-width: 90%;
+    top: -30px;
+  }
+
+  .imagem-botzinha {
+    width: 160px;
+  }
+}
